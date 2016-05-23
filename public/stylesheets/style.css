@@ -1,15 +1,26 @@
 body {
-  padding: 50px;
+  padding: 0px 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
   color: #00B7FF;
+  text-decoration: none;
 }
 html{
 	background:#ff4444;
 }
 .header{
-	border:solid 1px white;
-	height: 200px;
+	borde:solid 1px white;
+	height: 150px;
+	background:url(../images/lemurien.jpg) fixed center;
+}
+.menu-top ul{
+	padding: 0;
+	margin: 0 auto;
+}
+.menu-top ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 10px;
 }
