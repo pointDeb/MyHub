@@ -23,4 +23,5 @@ html{
 	list-style: none;
 	display: inline-block;
 	margin-right: 10px;
+	border-bottom:1px solid white; 
 }
