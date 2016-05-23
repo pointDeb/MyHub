@@ -1,4 +1,4 @@
 function animateHeader(animTime){
-	$('.header').fadeIn(animTime).delay(animTime).hide();
+	$('.header').slide('down',animTime);
 }
 setInterval(animateHeader(500),500);
