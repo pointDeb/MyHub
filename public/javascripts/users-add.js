@@ -1,1 +1,4 @@
-$('.header').toggle(500).delay(500).show(300);
+function animateHeader(animTime){
+	$('.header').fadeIn(animTime);
+}
+setInterval(animateHeader(500),500);

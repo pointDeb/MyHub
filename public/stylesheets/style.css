@@ -11,5 +11,6 @@ html{
 	background:#ff4444;
 }
 .header{
-	border:;
+	border:solid 1px white;
+	height: 200px;
 }
