@@ -2,16 +2,18 @@ doctype html
 html
   head
     title= title
+    meta(name="viewport" content="width=device-width, initial-scale=0.4")
     link(rel='stylesheet', href='/materialize/css/materialize.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-   div.menu-top.navbar-fixed
-    nav
+    div.navbar-fixed.top.menu-top
+     nav
       div.nav-wrapper
         a(href="/").brand-logo Developer Community
-        ul.right.hide-on-med-and-down
+        ul.left.hide-on-med-and-down.right
           li: a(href="/users/add") Users
           li.active: a(href="collapsible.html") JavaScript
+   div.container
     div.header
     block content
     block footer

@@ -10,18 +10,9 @@ html{
 	background:#ff4444;
 }
 .header{
-  	margin-top: 50px;
-	borde:solid 1px white;
 	height: 150px;
-	background:url(../images/lemurien.jpg) fixed center;
+	background:url(../images/lemurien.jpg) no-repeat center;
 }
-.menu-to ul{
-	padding: 0;
-	margin: 0 auto;
-}
-.menu-to ul li{
-	list-style: none;
-	display: inline-block;
-	margin-right: 10px;
-	border-bottom:1px solid white; 
+.container{
+	background: rgba(25,25,25,0.4);
 }
