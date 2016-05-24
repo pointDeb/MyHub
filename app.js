@@ -55,8 +55,8 @@ app.use(function(err, req, res, next) {
     error: {}
   });
 });
-app.listen(8081,function(){
+/*app.listen(8081,function(){
   console.log('server listen to :8081');
-});
+});*/
 
 module.exports = app;

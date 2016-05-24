@@ -1,6 +1,10 @@
 body {
   font: 14px "Roboto";
 }
+a{
+	text-decoration: none;
+	color: #fff;
+}
 .header{
 	padding: 0px;
 }
@@ -8,18 +12,34 @@ body {
 	padding: 0px;
 	height: 250px;
 }
-.container{
-	background: rgba(25,25,25,0.0);
-	padding-bottom: 5px;
+nav div.container{
 }
-.nav-wrapper{
+nav{
 	background: #3e2723;
-	color: #3e2723;
 }
 .profil_pic{
 	width: 100px;
 	height: 100px;
 }
+.logo{
+	height: 100px;
+	z-index: 2;
+	
+}
 .card-pane{
 	border: solid 1px red;
+}
+#mobile-demo{
+	background: rgba(125,125,125,0.4);
+}
+#mobile-demo li{
+	background:#ffffff;
+}
+#mobile-demo li:hover{
+	background: #3e2723;
+}
+.footer-copyright{
+	position: fixed;
+	bottom: 0px;
+	color:#3e2723;
 }
