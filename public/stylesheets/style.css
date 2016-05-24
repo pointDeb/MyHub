@@ -1,20 +1,21 @@
 body {
-  font: 14px "Roboto", Helvetica, Arial, sans-serif;
+  font: 14px "Roboto";
 }
 
 a {
   color: #00B7FF;
-  text-decoration: none;
 }
 html{
 	background:#ff4444;
 }
 .header{
-	height: 200px;
+	height: 300px;
 	background:url(../images/cover.jpg) no-repeat center fixed;
 }
 .container{
 	background: rgba(25,25,25,0.4);
 	padding-bottom: 5px;
-	width: 95%;
+}
+.nav-wrapper{
+	background: #ff4444;
 }
