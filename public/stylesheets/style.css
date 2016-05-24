@@ -8,9 +8,12 @@ a {
 html{
 	background:#ff4444;
 }
-.header{
+.header img{
+	width: 100%;
 	height: 300px;
-	background:url(../images/cover.jpg) no-repeat center fixed;
+}
+.header{
+	padding: 0px;
 }
 .container{
 	background: rgba(25,25,25,0.4);

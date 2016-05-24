@@ -12,9 +12,10 @@ html
         a(href="/").brand-logo Developer Community
         ul.left.hide-on-med-and-down.right
           li: a(href="/users/add") Users
-          li.active: a(href="collapsible.html") Workspace
+          li.active: a(href="/workspace") Workspace
    div.container
-    div.header
+    div.header.card-panel.hoverable
+      img(src="/images/lemurien.jpg").responsive-img
     block content
     block footer
       script(src="/javascripts/jquery-2.1.4.min.js" type="text/javascript")
