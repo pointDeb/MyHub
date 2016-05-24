@@ -10,9 +10,11 @@ html{
 	background:#ff4444;
 }
 .header{
-	height: 150px;
-	background:url(../images/lemurien.jpg) no-repeat center;
+	height: 200px;
+	background:url(../images/cover.jpg) no-repeat center fixed;
 }
 .container{
 	background: rgba(25,25,25,0.4);
+	padding-bottom: 5px;
+	width: 95%;
 }
