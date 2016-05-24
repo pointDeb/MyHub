@@ -9,15 +9,22 @@ html
     div.navbar-fixed.top.menu-top
      nav
       div.nav-wrapper
-        a(href="/").brand-logo Developer Community
+        a(href="/").brand-logo.valign-wrapper 
+         img(src="images/cover.jpg" alt="" class="circle profil_pic") 
         ul.left.hide-on-med-and-down.right
           li: a(href="/users/add") Users
           li.active: a(href="/workspace") Workspace
    div.container
-    div.header.card-panel.hoverable
-      img(src="/images/lemurien.jpg").responsive-img
+    div(class="slider")
+     ul(class="slides")
+      for slider in sliders
+       li
+        img(src="#{slider.src}")
+        div(class="caption")
+         h3=slider.title
+         h5(class="light grey-text text-lighten-3")=slider.desc
     block content
+    script(src="/javascripts/jquery-2.1.4.min.js" type="text/javascript")
+    script(src="/materialize/js/materialize.min.js" type="text/javascript")
+    script(src="/javascripts/main.js" type="text/javascript")
     block footer
-      script(src="/javascripts/jquery-2.1.4.min.js" type="text/javascript")
-      script(src="/materialize/js/materialize.min.js" type="text/javascript")
-      script(src="/javascripts/users-add.js" type="text/javascript")
