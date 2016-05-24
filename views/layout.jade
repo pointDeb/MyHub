@@ -2,15 +2,19 @@ doctype html
 html
   head
     title= title
+    link(rel='stylesheet', href='/materialize/css/materialize.min.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-   div.menu-top
-    ul
-     li: a(href="/") home
-     li: a(href="/users") users
+   div.menu-top.navbar-fixed
+    nav
+      div.nav-wrapper
+        a(href="/").brand-logo Developer Community
+        ul.right.hide-on-med-and-down
+          li: a(href="/users/add") Users
+          li.active: a(href="collapsible.html") JavaScript
     div.header
-    div.arbre= arbre
     block content
     block footer
       script(src="/javascripts/jquery-2.1.4.min.js" type="text/javascript")
+      script(src="/materialize/js/materialize.min.js" type="text/javascript")
       script(src="/javascripts/users-add.js" type="text/javascript")
