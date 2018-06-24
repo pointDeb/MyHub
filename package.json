@@ -13,8 +13,8 @@
     "jade": "~1.11.0",
     "morgan": "~1.6.1",
     "serve-favicon": "~2.3.0",
-    "pug":"latest",
-    "mongodb":"latest",
-    "mongoose":"latest"
+    "pug": "latest",
+    "mongodb": "latest",
+    "mongoose": "latest"
   }
 }
